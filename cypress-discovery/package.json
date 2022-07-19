@@ -1,7 +1,7 @@
 {
-  "name": "get-started",
+  "name": "buger-eats",
   "version": "1.0.0",
-  "description": "Primeiro exemplo com Cypress",
+  "description": "Projeto de teste de aceitação do app BugerEats",
   "main": "index.js",
   "scripts": {
     "test": "npx cypress open"
@@ -9,6 +9,10 @@
   "author": "Juliana Alves",
   "license": "MIT",
   "devDependencies": {
-    "cypress": "^9.6.0"
+    "@faker-js/faker": "^7.3.0",
+    "cypress": "^9.7.0",
+    "cypress-file-upload": "^5.0.8",
+    "faker": "^5.5.3",
+    "gerador-validador-cpf": "^5.0.2"
   }
 }
