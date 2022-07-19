@@ -12,9 +12,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      
+      - name : Navigate to cypress directory
+        run: |
+          cd cypress-discovery
       - name: 'UI Tests - Chrome'
-        run: cd cypress-discovery
         uses: cypress-io/github-action@v2
         with:
           install-command: yarn install
