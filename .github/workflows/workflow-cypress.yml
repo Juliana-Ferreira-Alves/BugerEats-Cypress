@@ -12,9 +12,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name : Navigate to cypress directory
-        run: |
-          cd bugereats-cypress
       - name: 'UI Tests - Chrome'
         uses: cypress-io/github-action@v2
         with:
